@@ -1,0 +1,144 @@
+-------------------------------------------------------------
+----------------------- !PROPERTIES! ------------------------
+-------------------------------------------------------------
+# -----------------------------------------------------------
+$ SCF_Energy
+   description: The SCF energy
+   geom. index: 1
+   prop. index: 1
+        SCF Energy:     -188.3465792245
+# -----------------------------------------------------------
+$ DFT_Energy
+   description: The DFT energy
+   geom. index: 1
+   prop. index: 1
+   Number of Alpha Electrons                 10.9999988714 
+   Number of Beta  Electrons                 10.9999988714 
+   Total number of  Electrons                21.9999977429 
+   Exchange energy                          -10.8690477224 
+   Correlation energy                        -0.7909301874 
+   Correlation energy NL                      0.0000000000 
+   Exchange-Correlation energy              -11.6599779098 
+   Embedding correction                       0.0000000000 
+   Total DFT Energy (No VdW correction)    -188.3465792245 
+# -----------------------------------------------------------
+$ Solvation_Details
+   description: Details concerning solvation
+   geom. index: 1
+   prop. index: 1
+     Epsilon:               -1.0000000000
+     Refrac:                 1.0000000000
+     RSolv:                  1.3000000000
+     Surface Type:                      2
+     Number of Points:                254
+     Surface Area:         252.8795278444
+     Dielectric Energy:     -0.0040911147
+# -----------------------------------------------------------
+$ Mayer_Pop
+   description: The Mayer population analysis
+   geom. index: 1
+   prop. index: 1
+     Number of atoms                     : 3
+     Threshold for printing              : 0.1000000
+     Number of bond orders printed       : 3
+  NA   - Mulliken gross atomic population
+  ZA   - Total nuclear charge
+  QA   - Mulliken gross atomic charge
+  VA   - Mayer's total valence
+  BVA  - Mayer's bonded valence
+  FA   - Mayer's free valence
+  ATOM       NA         ZA         QA         VA         BVA        FA
+  0   0     5.5765     6.0000     0.4235     4.2767     4.2767    -0.0000
+  1   0     8.2118     8.0000    -0.2118     2.3568     2.3568    -0.0000
+  2   0     8.2118     8.0000    -0.2118     2.3568     2.3568     0.0000
+      Bond orders larger than 0.1000000
+           Atom A     A.N. of A          Atom B    A.N. of B              Bond order
+                0             6               1            8                2.138357
+                0             6               2            8                2.138357
+                1             8               2            8                0.218458
+# -----------------------------------------------------------
+$ CIS_ABS
+   description: The CIS absorption spectrum 
+   geom. index: 1
+   prop. index: 1
+        Number of roots:  5
+        The CIS Absorption Spectrum :
+                  0          1          2          3          4          5    
+      0       0.334099   0.000000   0.000000   0.000000   0.000000   0.000000
+      1       0.344854   0.000000   0.000000   0.000000  -0.000000   0.000000
+      2       0.344884   0.000000   0.000000   0.000000   0.000000  -0.000000
+      3       0.394195   0.000000   0.000000  -0.000000  -0.000000  -0.000000
+      4       0.394195   0.000000   0.000000   0.000000  -0.000000   0.000000
+        The CIS Absorption Spectrum (Velocity):
+                  0          1          2          3          4          5    
+      0       0.334099   0.000000   0.000000  -0.000000  -0.000000  -0.000000
+      1       0.344854   0.000000   0.000000  -0.000000   0.000000  -0.000000
+      2       0.344884   0.000000   0.000000  -0.000000  -0.000000   0.000000
+      3       0.394195   0.000000   0.000000   0.000000   0.000000   0.000000
+      4       0.394195   0.000000   0.000000  -0.000000   0.000000  -0.000000
+# -----------------------------------------------------------
+$ CIS_CD
+   description: The CIS CD spectrum 
+   geom. index: 1
+   prop. index: 1
+        Number of roots:  5
+        The CIS CD Spectrum:
+                  0          1          2          3    
+      0      -0.000000   0.000000  -0.000000  -0.000000
+      1      -0.000000   0.000000   0.000000  -0.000000
+      2      -0.000000  -0.000000   0.000000   0.000000
+      3      -0.000000  -0.223146   0.312811  -0.000000
+      4       0.000000  -0.312811  -0.223146  -0.000000
+# -----------------------------------------------------------
+$ Calculation_Info
+   description: Details of the calculation
+   geom. index: 1
+   prop. index: 1
+     Multiplicity:                          1
+     Charge:                                0
+     number of atoms:                       3
+     number of electrons:                   0
+     number of frozen core electrons:       1
+     number of correlated electrons:        0
+     number of basis functions:             42
+     number of aux C basis functions:       0
+     number of aux J basis functions:       147
+     number of aux JK basis functions:      0
+     number of aux CABS basis functions:    0
+     Total Energy                           -188.012480
+# -----------------------------------------------------------
+$ SCF_Electric_Properties
+   description: The SCF Calculated Electric Properties
+   geom. index: 1
+   prop. index: 1
+       Filename                          : ../../mol/ORCA_in/CO.1.scfp 
+       Do Dipole Moment Calculation      : true 
+       Do Quadrupole Moment Calculation  : false 
+       Do Polarizability Calculation     : false 
+** Dipole moment part of electric properties **
+        Magnitude of dipole moment (Debye) :        0.0000002430
+        Electronic Contribution:
+                  0    
+      0       0.000000
+      1      -0.000000
+      2       0.000000
+        Nuclear Contribution:
+                  0    
+      0       0.000000
+      1       0.000000
+      2       0.000000
+        Total Dipole moment:
+                  0    
+      0       0.000000
+      1      -0.000000
+      2       0.000000
+# -------------------------------------------------------------
+----------------------- !GEOMETRIES! ------------------------
+# -------------------------------------------------------------
+------------------------ !GEOMETRY! -------------------------
+    Number of atoms:    3 
+    Geometry Index:     1 
+    Coordinates:
+               0 C      0.000000000000    0.000000000000    0.000000000000
+               1 O      0.000000000000    0.000000000000    1.159076000000
+               2 O      0.000000000000    0.000000000000   -1.159076000000
